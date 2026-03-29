@@ -1,0 +1,37 @@
+# CRM Digital FTE - Requirements for Python 3.13 (Windows)
+# Using only packages with pre-built wheels
+
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-dotenv==1.0.1
+pydantic==2.6.0
+pydantic-settings==2.1.0
+
+# Database (use asyncpg - no build required)
+sqlalchemy==2.0.25
+asyncpg==0.29.0
+
+# Kafka (pure Python - no build required)
+kafka-python-ng==2.2.2
+
+# HTTP Client (required for Grok API)
+httpx==0.26.0
+requests==2.31.0
+
+# WhatsApp Integration
+twilio==8.11.0
+
+# Sentiment Analysis (pure Python)
+textblob==0.17.1
+nltk==3.8.1
+
+# Utilities
+python-multipart==0.0.6
+python-dateutil==2.8.2
+
+# Logging
+loguru==0.7.2
+
+# WebSocket support
+websockets==12.0

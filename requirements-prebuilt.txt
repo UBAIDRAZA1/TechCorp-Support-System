@@ -1,0 +1,62 @@
+# CRM Digital FTE - Requirements (Pre-built wheels only - No compilation)
+# Works on Python 3.13 Windows without Visual C++ Build Tools
+
+# Core Framework (pure Python or pre-built)
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-dotenv==1.0.1
+
+# Pydantic with pre-built wheel
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Database - Use psycopg2-binary pre-built wheel from PyPI
+# Install separately: pip install psycopg2-binary --only-binary :all:
+
+# SQLAlchemy (pure Python)
+sqlalchemy==2.0.25
+
+# Kafka (pure Python)
+kafka-python-ng==2.2.2
+
+# HTTP Client (pre-built)
+httpx==0.26.0
+requests==2.31.0
+
+# WhatsApp (pure Python)
+twilio==8.11.0
+
+# Sentiment Analysis (pure Python)
+textblob==0.17.1
+nltk==3.8.1
+
+# Utilities (pure Python)
+python-multipart==0.0.6
+python-dateutil==2.8.2
+
+# Logging (pure Python)
+loguru==0.7.2
+
+# WebSocket (pre-built)
+websockets==12.0
+
+# Starlette (FastAPI dependency)
+starlette==0.35.1
+
+# AnyIO (async support)
+anyio==4.2.0
+
+# Sniffio
+sniffio==1.3.0
+
+# IDNA
+idna==3.6
+
+# Certifi
+certifi==2024.2.2
+
+# Character detection
+chardet==5.2.0
+
+# URI parsing
+rfc3986==2.0.0

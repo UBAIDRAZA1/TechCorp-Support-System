@@ -1,0 +1,64 @@
+{
+  "sample_tickets": [
+    {
+      "id": "TKT-001",
+      "customer": "john@example.com",
+      "channel": "email",
+      "subject": "Cannot login to my account",
+      "message": "I've been trying to login for the past hour but keep getting 'Invalid credentials' error. I'm sure my password is correct.",
+      "sentiment": "frustrated",
+      "priority": "medium",
+      "status": "open",
+      "escalation_level": "L1",
+      "suggested_response": "Hi John, I understand your frustration. Let me help you with the login issue. First, let's try resetting your password. Please click on 'Forgot Password' on the login page and follow the instructions sent to your email."
+    },
+    {
+      "id": "TKT-002",
+      "customer": "+1234567890",
+      "channel": "whatsapp",
+      "subject": "Pricing question",
+      "message": "Hi, what's the price for enterprise plan?",
+      "sentiment": "neutral",
+      "priority": "low",
+      "status": "resolved",
+      "escalation_level": "L1",
+      "suggested_response": "Hi! Our Enterprise plan is $99/user/month. It includes full CRM features, priority support, and custom integrations. Would you like to schedule a demo?"
+    },
+    {
+      "id": "TKT-003",
+      "customer": "sarah@company.com",
+      "channel": "web",
+      "subject": "Data export not working",
+      "message": "I've tried exporting my data multiple times but the download never starts. This is urgent as I need it for a board meeting tomorrow.",
+      "sentiment": "urgent",
+      "priority": "high",
+      "status": "escalated",
+      "escalation_level": "L2",
+      "suggested_response": "Hi Sarah, I understand this is urgent. Let me escalate this to our technical team immediately. They will contact you within 1 hour. Your ticket number is TKT-003."
+    },
+    {
+      "id": "TKT-004",
+      "customer": "mike@startup.io",
+      "channel": "email",
+      "subject": "Feature request - Custom fields",
+      "message": "Would love to see custom fields for contacts. Is this on your roadmap?",
+      "sentiment": "positive",
+      "priority": "low",
+      "status": "open",
+      "escalation_level": "L3",
+      "suggested_response": "Hi Mike, thanks for the suggestion! Custom fields is a great idea. Let me forward this to our product team. Can you share more about your use case?"
+    },
+    {
+      "id": "TKT-005",
+      "customer": "+9876543210",
+      "channel": "whatsapp",
+      "subject": "Billing discrepancy",
+      "message": "I was charged twice this month. Please check.",
+      "sentiment": "angry",
+      "priority": "high",
+      "status": "escalated",
+      "escalation_level": "L2",
+      "suggested_response": "I sincerely apologize for the billing issue. Let me escalate this to our billing team right away. They will resolve this within 24 hours. Reference: TKT-005"
+    }
+  ]
+}

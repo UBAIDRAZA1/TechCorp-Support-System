@@ -1,0 +1,35 @@
+# CRM Digital FTE - Pure Python Requirements (No Compilation)
+# Works on ANY Python version including 3.13
+
+# Web Framework
+fastapi==0.109.0
+uvicorn==0.27.0
+
+# Environment
+python-dotenv==1.0.1
+
+# Data validation (pure Python implementation)
+pydantic==2.6.0
+
+# Database (pure Python async driver)
+asyncpg==0.29.0
+
+# HTTP requests
+httpx==0.26.0
+requests==2.31.0
+
+# Kafka
+kafka-python==2.0.2
+
+# WhatsApp
+twilio==8.11.0
+
+# Utilities
+python-multipart==0.0.6
+python-dateutil==2.8.2
+
+# Logging
+loguru==0.7.2
+
+# WebSocket
+websockets==12.0
